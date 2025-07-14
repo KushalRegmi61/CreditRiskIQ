@@ -1,0 +1,15 @@
+loan_default_pipeline/
+│
+├── data/
+│   └── loan_data.csv                 # 10K sampled dataset
+├── notebooks/
+│   └── 01_eda_and_preprocessing.ipynb
+│   └── 02_pipeline_training.ipynb
+├── src/
+│   ├── preprocess.py                 # Custom transformers
+│   ├── pipeline.py                   # Pipeline creation
+├── outputs/
+│   └── model.pkl                     # Final saved model
+│
+├── requirements.txt
+├── README.md
